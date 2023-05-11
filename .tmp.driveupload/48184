@@ -1,0 +1,216 @@
+committed
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   .tmp.driveupload/48641
+#	new file:   .tmp.driveupload/48643
+#	new file:   .tmp.driveupload/48645
+#	new file:   .tmp.driveupload/48647
+#	new file:   .tmp.driveupload/48649
+#	new file:   .tmp.driveupload/48651
+#	new file:   .tmp.driveupload/48653
+#	new file:   .tmp.driveupload/48655
+#	new file:   .tmp.driveupload/48657
+#	new file:   .tmp.driveupload/48661
+#	new file:   .tmp.driveupload/48663
+#	new file:   .tmp.driveupload/48665
+#	new file:   .tmp.driveupload/48667
+#	new file:   .tmp.driveupload/48669
+#	new file:   .tmp.driveupload/48671
+#	new file:   .tmp.driveupload/48675
+#	new file:   .tmp.driveupload/48677
+#	new file:   .tmp.driveupload/48681
+#	new file:   .tmp.driveupload/48683
+#	new file:   .tmp.driveupload/48685
+#	new file:   .tmp.driveupload/48689
+#	new file:   .tmp.driveupload/48693
+#	new file:   .tmp.driveupload/48697
+#	new file:   .tmp.driveupload/48699
+#	new file:   .tmp.driveupload/48701
+#	new file:   .tmp.driveupload/48703
+#	new file:   .tmp.driveupload/48705
+#	new file:   .tmp.driveupload/48707
+#	new file:   .tmp.driveupload/48709
+#	new file:   .tmp.driveupload/48713
+#	new file:   .tmp.driveupload/48715
+#	new file:   .tmp.driveupload/48717
+#	new file:   .tmp.driveupload/48719
+#	new file:   .tmp.driveupload/48721
+#	new file:   .tmp.driveupload/48723
+#	new file:   .tmp.driveupload/48727
+#	new file:   .tmp.driveupload/48729
+#	new file:   .tmp.driveupload/48731
+#	new file:   .tmp.driveupload/48733
+#	new file:   .tmp.driveupload/48735
+#	new file:   .tmp.driveupload/48737
+#	new file:   .tmp.driveupload/48739
+#	new file:   .tmp.driveupload/48743
+#	new file:   .tmp.driveupload/48745
+#	new file:   .tmp.driveupload/48747
+#	new file:   .tmp.driveupload/48749
+#	new file:   .tmp.driveupload/48751
+#	new file:   .tmp.driveupload/48753
+#	new file:   .tmp.driveupload/48757
+#	new file:   .tmp.driveupload/48759
+#	new file:   .tmp.driveupload/48763
+#	new file:   .tmp.driveupload/48765
+#	new file:   .tmp.driveupload/48769
+#	new file:   .tmp.driveupload/48771
+#	new file:   .tmp.driveupload/48775
+#	new file:   .tmp.driveupload/48777
+#	new file:   .tmp.driveupload/48779
+#	new file:   .tmp.driveupload/48781
+#	new file:   .tmp.driveupload/48783
+#	new file:   .tmp.driveupload/48785
+#	new file:   .tmp.driveupload/48789
+#	new file:   .tmp.driveupload/48791
+#	new file:   .tmp.driveupload/48793
+#	new file:   .tmp.driveupload/48795
+#	new file:   .tmp.driveupload/48797
+#	new file:   .tmp.driveupload/48799
+#	new file:   .tmp.driveupload/48801
+#	new file:   .tmp.driveupload/48803
+#	new file:   .tmp.driveupload/48807
+#	new file:   .tmp.driveupload/48811
+#	new file:   .tmp.driveupload/48813
+#	new file:   .tmp.driveupload/48815
+#	new file:   .tmp.driveupload/48817
+#	new file:   .tmp.driveupload/48821
+#	new file:   .tmp.driveupload/48823
+#	new file:   .tmp.driveupload/48825
+#	new file:   .tmp.driveupload/48829
+#	new file:   .tmp.driveupload/48831
+#	new file:   .tmp.driveupload/48833
+#	new file:   .tmp.driveupload/48835
+#	new file:   .tmp.driveupload/48837
+#	new file:   .tmp.driveupload/48839
+#	new file:   .tmp.driveupload/48841
+#	new file:   .tmp.driveupload/48843
+#	new file:   .tmp.driveupload/48847
+#	new file:   .tmp.driveupload/48851
+#	new file:   .tmp.driveupload/48855
+#	new file:   .tmp.driveupload/48857
+#	new file:   .tmp.driveupload/48859
+#	new file:   .tmp.driveupload/48861
+#	new file:   .tmp.driveupload/48863
+#	new file:   .tmp.driveupload/48865
+#	new file:   .tmp.driveupload/48867
+#	new file:   .tmp.driveupload/48869
+#	new file:   .tmp.driveupload/48871
+#	new file:   .tmp.driveupload/48873
+#	new file:   .tmp.driveupload/48875
+#	new file:   .tmp.driveupload/48877
+#	new file:   .tmp.driveupload/48879
+#	new file:   .tmp.driveupload/48881
+#	new file:   .tmp.driveupload/48883
+#	new file:   .tmp.driveupload/48885
+#	new file:   .tmp.driveupload/48887
+#	new file:   .tmp.driveupload/48889
+#	new file:   .tmp.driveupload/48891
+#	new file:   .tmp.driveupload/48893
+#	new file:   .tmp.driveupload/48895
+#	new file:   .tmp.driveupload/48897
+#	new file:   .tmp.driveupload/48899
+#	new file:   .tmp.driveupload/48901
+#	new file:   .tmp.driveupload/48903
+#	new file:   .tmp.driveupload/48907
+#	new file:   .tmp.driveupload/48909
+#	new file:   .tmp.driveupload/48911
+#	new file:   .tmp.driveupload/48915
+#	new file:   .tmp.driveupload/48917
+#	new file:   .tmp.driveupload/48919
+#	new file:   .tmp.driveupload/48921
+#	new file:   .tmp.driveupload/48923
+#	new file:   .tmp.driveupload/48925
+#	new file:   .tmp.driveupload/48927
+#	new file:   .tmp.driveupload/48929
+#	new file:   .tmp.driveupload/48931
+#	new file:   .tmp.driveupload/48933
+#	new file:   .tmp.driveupload/48989
+#	new file:   .tmp.driveupload/48993
+#
+# Changes not staged for commit:
+#	deleted:    Projects/apple LL/Screenshot 2023-04-24 at 15-49-34 Document.png
+#	deleted:    Projects/apple LL/images link.txt
+#	deleted:    Projects/apple LL/iphone.html
+#	deleted:    number of projects/project2 decork/Screenshot 2023-04-24 at 15-53-24 decork.png
+#	deleted:    number of projects/project2 decork/index.html
+#
+# Untracked files:
+#	.tmp.driveupload/49001
+#	.tmp.driveupload/49003
+#	.tmp.driveupload/49005
+#	.tmp.driveupload/49007
+#	.tmp.driveupload/49009
+#	.tmp.driveupload/49011
+#	.tmp.driveupload/49013
+#	.tmp.driveupload/49015
+#	.tmp.driveupload/49017
+#	.tmp.driveupload/49019
+#	.tmp.driveupload/49021
+#	.tmp.driveupload/49023
+#	.tmp.driveupload/49025
+#	.tmp.driveupload/49027
+#	.tmp.driveupload/49029
+#	.tmp.driveupload/49031
+#	.tmp.driveupload/49035
+#	.tmp.driveupload/49037
+#	.tmp.driveupload/49039
+#	.tmp.driveupload/49043
+#	.tmp.driveupload/49047
+#	.tmp.driveupload/49049
+#	.tmp.driveupload/49051
+#	.tmp.driveupload/49053
+#	.tmp.driveupload/49055
+#	.tmp.driveupload/49057
+#	.tmp.driveupload/49059
+#	.tmp.driveupload/49061
+#	.tmp.driveupload/49063
+#	.tmp.driveupload/49065
+#	.tmp.driveupload/49067
+#	.tmp.driveupload/49069
+#	.tmp.driveupload/49071
+#	.tmp.driveupload/49073
+#	.tmp.driveupload/49075
+#	.tmp.driveupload/49077
+#	.tmp.driveupload/49079
+#	.tmp.driveupload/49081
+#	.tmp.driveupload/49083
+#	.tmp.driveupload/49085
+#	.tmp.driveupload/49087
+#	.tmp.driveupload/49091
+#	.tmp.driveupload/49093
+#	.tmp.driveupload/49095
+#	.tmp.driveupload/49097
+#	.tmp.driveupload/49099
+#	.tmp.driveupload/49103
+#	.tmp.driveupload/49105
+#	.tmp.driveupload/49107
+#	.tmp.driveupload/49109
+#	.tmp.driveupload/49111
+#	.tmp.driveupload/49113
+#	.tmp.driveupload/49115
+#	.tmp.driveupload/49117
+#	.tmp.driveupload/49119
+#	.tmp.driveupload/49121
+#	.tmp.driveupload/49125
+#	.tmp.driveupload/49127
+#	.tmp.driveupload/49129
+#	.tmp.driveupload/49131
+#	.tmp.driveupload/49133
+#	.tmp.driveupload/49135
+#	.tmp.driveupload/49137
+#	.tmp.driveupload/49139
+#	.tmp.driveupload/49141
+#	.tmp.driveupload/49143
+#	.tmp.driveupload/49147
+#	.tmp.driveupload/49155
+#	.tmp.driveupload/49183
+#	.tmp.driveupload/49187
+#	.tmp.driveupload/49191
+#	.tmp.driveupload/49196
+#	Apple website design/
+#	project2 decork/
+#

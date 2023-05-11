@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      .main {
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20%;
+        height: 10%;
+        width: 100%;
+        /* background-color: #b85858; */
+      }
+      header h1 {
+        font-size: 35px;
+        color: rgb(0, 63, 145);
+      }
+      header nav {
+        display: flex;
+        gap: 35px;
+        font-size: 18px;
+        text-transform: capitalize;
+      }
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .btnhead button {
+        text-transform: capitalize;
+        border: none;
+        font-size: 16px;
+        padding: 6px 15px;
+        border-radius: 4px;
+      }
+      .b {
+        background-color: rgb(0, 63, 145);
+        color: #fff;
+      }
+      .a {
+        background-color: transparent;
+        border: none;
+        color: white;
+      }
+      .container {
+        position: relative;
+        height: 80%;
+        width: 75%;
+        background-color: #fff;
+        margin-top: 30px;
+        margin-left: 12%;
+        border-radius: 30px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://images.unsplash.com/photo-1504450075628-39777da238ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGJ1aWxkaW5nc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+      }
+      .container .box {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        height: 80%;
+        width: 65%;
+        /* background-color: blue; */
+      }
+      .box h1 {
+        font-size: 55px;
+        text-transform: capitalize;
+        font-family: Gilroy;
+        letter-spacing: 2px;
+        color: #fff;
+      }
+      .box p {
+        width: 68%;
+        margin-top: 15px;
+        color: #f5eeee;
+        font-size: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .box1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 15px;
+        position: absolute;
+         top: 67%;
+        left: 5%;
+        height: 10%;
+        width: 36%;
+        border-radius: 10px;
+        background-color: #fff;
+      }
+      .box1 i{
+        margin-left: 5px;
+        font-size: 18px;
+        word-spacing: 20px;
+      }
+      .box1 span{
+        text-transform: capitalize;
+        font-size: 20px;
+        /* padding: 10px; */
+      }
+      .box1 .c{
+        margin-left: -8px;
+        font-size: 25px;
+        /* padding-right: 30px; */
+      }
+      .box1 .ver{
+        font-size: 200%;
+      }
+      .box1 button{
+        font-size: 17px;
+        text-transform: capitalize;
+        padding: 7px 14px;
+        background-color: rgb(0, 63, 145);
+        border-radius: 8px;
+        color: #fff;
+      }
+      .main h3{
+        position: absolute;
+        bottom: 5%;
+        right: 3%;
+        font-size: 14px;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1><i class="ri-home-4-fill"></i></h1>
+        <nav>
+          <a href="">home </a>
+          <a href="">servises</a>
+          <a href="">about</a>
+          <a href="">contact</a>
+          <a href=""></a>
+        </nav>
+        <div class="btnhead">
+          <button class="a">sing up</button>
+          <button class="b">log in</button>
+        </div>
+      </header>
+      <div class="container">
+        <div class="box">
+          <h1>
+            committed to getting <br />colorful places to live <br />
+            and play.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur,adipisicing elit. Laborum,
+            enim! adipisicing elit. Laborum, enim!
+          </p>
+        </div>
+        <div class="box1">
+            <i class="ri-link"></i><span class="r">range</span>
+            <span class="ver">|</span>
+            <i class="ri-map-pin-user-fill"></i><span>location</span>
+            <i class="c ri-arrow-drop-down-line"></i>
+            <button>search</button>
+        </div>
+      </div>
+      <h3>design by <br>ankit jatav <br>******</h3>
+    </div>
+  </body>
+</html>

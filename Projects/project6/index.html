@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            /* background-color: blueviolet; */
+        }
+        .navbar{
+            margin-top: 1%;
+            justify-content: space-around;
+            display: flex;
+            height: 10%;
+            width: 100%;
+            background-color: white;
+        }
+        .navbar h1{
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        .navbar h1 span{
+            color:rgb(255, 0, 98) ;
+            font-size: 50px;
+        }
+        nav{
+            margin-top: 10px;
+            font-size: 18px;
+            text-transform: capitalize;
+            word-spacing: 18px;
+            font-weight: 600;
+        }
+        nav a{
+            border-radius: 35px;
+            padding: 10px;
+            text-decoration: none;
+           
+        }
+        nav a:hover{
+            text-decoration: underline;
+            transition: 0.3s;
+            /* border: 0.5px solid black; */
+            /* color: white; */
+         color: rgb(255, 0, 98);
+        }
+        .navbar h2{
+            text-transform: uppercase;            /* margin-top: 10px; */
+            text-align: center;
+            font-size: 15px;
+            background-color: rgb(253, 70, 70);
+            border-radius: 30px;    
+            padding: 15px;
+        }
+        .navbar h2:hover{
+            cursor: pointer;
+            color: white;
+            transition: .3s;
+        }
+        .cont{
+            position: absolute;
+            top: 45%;
+            left: 55%;
+        }
+        .cont h3{
+            word-spacing: 10px;
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        .cont span{
+            color: rgb(253, 70, 70) ;
+        }
+        .cont p{
+            padding-top: 15px;
+           width: 90%;
+        }
+        .cont h4{
+            margin-top: 15px;
+            text-transform: uppercase;
+            width: 35%;
+            font-size: 18px;
+            color: white;
+            border-radius: 30px;
+            padding-left: 40px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            background-color:rgb(253, 70, 70) ;
+        }
+        .cont h4:hover{
+            color: rgb(24, 21, 21);
+            cursor: pointer;
+        }
+        .image{
+            position: absolute;
+            left: 10%;
+            top: 15%;
+            height: 470px;
+            width: 360px;
+            bottom: 4%;
+            background-size: cover;
+            background-position: bottom;
+            border-radius: 500px;
+            background-image: url('/ankit\ \(2\).png');
+            background-color: rgb(253, 70, 70) ;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h1><span>p</span>ortfolio</h1>
+            <nav>
+                <a href="">home</a>
+                <a href="">about</a>
+                <a href="">skills</a>
+                <a href="">projects</a>
+                <a href="">contact</a>
+            </nav>
+            <span><h2>hire me</h2></span>
+        </div>
+        <div class="cont">
+            <h3>hey,I'm <span>ankit</span> Kumar.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Saepe laudantium accusantium 
+                tenetur officia qui non, perspiciatis quam quaerat hic esse.</p>
+                <span><h4>download cv</h4></span>
+        </div>
+        <div class="image">
+    
+        </div>
+    </div>
+</body>
+</html>

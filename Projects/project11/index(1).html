@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(2, 2, 27);
+        }
+        header{
+            display: -webkit-inline-flex;
+            height: 15%;
+            width: 100%;
+            /* background-color: blue; */
+            /* justify-content: space-around; */
+        }
+        header h1{
+            color: white;
+            /* font-family: 100; */
+            padding-left: 12%;
+            padding-top: 2%;
+            font-size: 30px;
+            text-transform: capitalize;
+            font-family: Gilroy;
+        }
+        nav{
+            text-transform: capitalize;
+            font-size: 20px;
+            padding-left: 40%;
+            padding-top: 2.5%;
+            word-spacing: 20px;
+            
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        nav .a {
+            color: rgb(4, 121, 218);
+        }
+        nav a:hover{
+       /* background-color:rgb(4, 121, 218) ; */
+           color:rgb(4, 121, 218); 
+           transition: .5s;
+        }
+        .contant{
+            top: 40%;
+            left: 11%;
+            position: absolute;
+            text-align: start;
+            height: 35%;
+            width: 40%;
+            /* background-color: #fff; */
+        }
+        .contant h2{
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+            font-family: Gilroy;
+        }
+        .contant h3{
+            font-size: 22px;
+            text-transform: capitalize;
+            font-family:Gilroy ;
+            font-weight: bolder;
+            font-weight: 800;
+            color:rgb(4, 121, 218) ;
+        }
+        .contant p{
+            color: #fff;
+            margin-top: 17px;
+            font-size: 16px;
+            width: 80%;
+        }
+        .contant .btn{
+            margin-top: 5%;
+          
+            /* margin-left: 4%; */
+        }
+        .b{
+              text-transform: capitalize;
+              font-size: 17px;
+              padding: 6px 20px;
+              background-color:rgb(4, 121, 218) ;
+              border: none;
+              border-radius: 5px;
+              margin-right: 5%;
+        }
+        .c{
+            text-transform: capitalize;
+              font-size: 17px;
+              padding: 5px 20px;
+              background-color:transparent;
+              border: 1px solid rgb(4, 121, 218);
+              color: rgb(4, 121, 218);
+              border-radius: 5px;
+        }
+        .image{
+            position: absolute;
+            top: 13%;
+            right: 15%;
+            height: 80%;
+            width: 28%;
+            background-image: url(https://media.istockphoto.com/id/1400279044/photo/happy-bachelor-signing-a-contract-man-filling-out-insurance-documents-handsome-young-man.jpg?b=1&s=170667a&w=0&k=20&c=h1IWGWDH9qyEy4RylrHPL5BuFktmjJdwtaWAXQhR2cw=);
+            background-size: cover;
+            background-position:top;
+            background-repeat: no-repeat;
+            /* background-color: #fff; */
+            box-shadow: 10px 15px 5px 15px  rgb(2, 2, 27);
+            border: 3px solid rgb(54, 52, 52);
+            border-radius: 10%;
+        }
+        .image:hover{
+            transition: .5s;
+            cursor: pointer;
+            background-color: rgb(4, 4, 48);
+        }
+        .sh{
+            position: absolute;
+            bottom: 6%;
+            right: 10%;
+            height: 15%;
+            width: 40%;
+            /* opacity: 0.5; */
+            background-color:  rgb(2, 2, 27);
+            box-shadow: 0px -20px 15px rgb(2, 2, 27) ;
+        }
+        .icon{
+            cursor: pointer;
+            justify-content: space-evenly;
+            /* padding: 12px; */
+            display: flex;
+            position: absolute;
+            bottom: 5%;
+            left: 7%;
+            height: 10%;
+            width: 20%;
+            /* background-color: #fff; */
+        }
+        .d{
+             font-size: 20px;
+           padding: 15px;
+            text-align: center;
+            background-position: center;
+            color: rgb(4, 121, 218);
+            border-radius: 50px;
+            background-color:rgb(11, 11, 51);
+             height: 50px;
+            width: 50px;
+        }
+        .e{
+             font-size: 20px;
+              color: rgb(4, 121, 218);
+           padding: 15px;
+            text-align: center;
+             border-radius: 50px;
+            background-color:rgb(11, 11, 51);
+              height: 50px;
+            width: 50px;
+        }
+        .f{
+            font-size: 20px;
+             color: rgb(4, 121, 218);
+           padding: 15px;
+            text-align: center;
+             border-radius: 50px;
+           background-color:rgb(11, 11, 51);
+            height: 50px;
+            width: 50px;
+        }
+        .f:hover{
+            background-color: #382c2c;
+        }
+         .d:hover{
+            background-color: #382c2c;
+        }
+         .e:hover{
+            background-color: #382c2c;
+            /* color: black; */
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>jacob</h1>
+        <nav>
+           <a class="a" href="">home</a> 
+            <a href="">about</a>
+            <a href="">services</a>
+            <a href="">portfolio</a>
+            <a href="">contact</a>
+        </nav>
+    </header>
+    <div class="contant">
+        <h2>hi, i'm ankit jatav</h2>
+        <h3>frontend developer</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sequi sapiente quaerat cupiditate autem dicta facilis. Laboriosam impedit expedita fugit!</p>
+    <div class="btn">
+        <button class="b">hire me</button>
+        <button class="c">let's talk</button>
+    </div>
+</div>
+<div class="image">
+
+</div>
+
+<div class="icon">
+    <div class="d"><i class="fa-brands fa-facebook"></i></div>
+    <div class="e"><i class="fa-brands fa-linkedin"></i></div>
+    <div class="f"><i class="fa-brands fa-square-twitter"></i></div>
+</div>
+   <div class="sh">
+
+   </div>
+
+
+</body>
+</html>

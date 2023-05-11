@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      /* .main{
+         height: 100%;
+        width: 100%;
+      } */
+      header {
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 20px;
+        /* background-color: #e9e0e0; */
+        display: flex;
+        justify-content: space-between;
+      }
+      img {
+        /* position: absolute; */
+        margin-left: 30px;
+        height: 30px;
+        width: 85px;
+        /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1920px-Logo_NIKE.svg.png"); */
+        /* background-color: red; */
+      }
+      nav {
+        font-size: 15px;
+        text-transform: capitalize;
+        word-spacing: 40px;
+      }
+      nav a {
+        text-decoration: none;
+        color: white;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      header i {
+        margin-right: -140px;
+        color: white;
+        font-size: 17px;
+      }
+      .container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(
+          0.18turn,
+          rgb(1, 1, 15),
+          80%,
+          rgb(255, 51, 0)
+        );
+      }
+      .contxt {
+        /* background-color: aliceblue; */
+        height: 100%;
+        width: 50%;
+      }
+      .text {
+        margin-top: 20%;
+        margin-left: 25%;
+      }
+      .contxt h1 {
+        color: #fff;
+        font-size: 50px;
+        letter-spacing: 5px;
+
+        text-transform: capitalize;
+        font-family: Gilroy;
+      }
+      .contxt h2 {
+        margin-left: -4px;
+        margin-top: 5px;
+        font-size: 30px;
+        text-transform: capitalize;
+        letter-spacing: 4px;
+        color: rgb(255, 94, 0);
+        font-family: Gilroy;
+      }
+      .contxt h5 {
+        padding-top: 20px;
+        font-size: 13px;
+        color: #fff;
+        word-spacing: 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+                margin-left: -3px;
+
+      }
+      .contxt p {
+        padding-top: 7px;
+        font-size: 14px;
+        color: #858080;
+        text-transform: capitalize;
+        width: 85%;
+        margin-left: -3px;
+      }
+      .text .a1 {
+        letter-spacing: 1px;
+        margin-left: -8%;
+        margin-top: 50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        background: transparent;
+        font-size: 28px;
+        color: white;
+        border: none;
+      }
+      .text button {
+        margin-left: 20px;
+        font-weight: bold;
+        
+        background: linear-gradient(
+          0.1turn,
+          rgb(216, 192, 86),
+          rgb(212, 68, 1)
+          
+        );
+        padding: 13px 28px;
+        font-size: 13px;
+        border-radius: 5px;
+        color: white;
+        border: 1px solid gray;
+        text-transform: uppercase;
+      }
+      .image {
+        position: absolute;
+         /* background-color: aliceblue; */
+         /* background:content-box radial-gradient(rgb(255, 15, 15),rgb(17, 14, 14)); */
+        height: 60%;
+        top: 23%;
+        right: 13%;
+        width: 40%;
+        /* background-size: cover;
+        background-position: center; */
+        /* background-image: url(remove1.png);  */
+      }
+      .image img{
+        position: absolute;
+        right:-28%;
+       bottom: -75px;
+        height:530px;
+        width: 680px;
+        transform: rotate(-0deg);
+      }
+       .image img:hover{
+        transform: rotate(0.12turn);
+          position: absolute;
+        right:-15%;
+       bottom: -85px;
+         /* height:5300px;
+        
+        width: 650px; */
+       }
+      .bottomtxt{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: absolute;
+        bottom: 3%;
+        left: 40%;
+        height: 60px;
+        width: 180px;
+        /* background-color: #ac2929; */
+      }
+      .bottomtxt i{
+        font-size: 40px;
+        color: rgb(250, 240, 240);
+      }
+      .bottomtxt h5{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #6e6b6b;
+      }
+      .bottomtxt p{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        letter-spacing: 2px;
+      }
+      /* .black{
+        position: absolute;
+        right: 20%;
+        bottom: -45%;
+        height: 80%;
+        width: 10%;
+        opacity: .1;
+        transform: rotate(80deg);
+        box-shadow: 0px  10px 100px black;
+        background-color: #ff3b0a;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <header>
+          <div class="icon">
+            <img
+              src="https://www.freeiconspng.com/thumbs/nike-logo/download-nike-desktop-background-picture-1.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <nav>
+            <a href="">men</a>
+            <a href="">womens</a>
+            <a href="">kids</a>
+            <a href="">customize</a>
+            <a href="">collection</a>
+          </nav>
+          <i class="ri-search-line"></i>
+        </header>
+        <div class="contxt">
+          <div class="text">
+            <h1>nike</h1>
+            <h2>air max plus</h2>
+            <h5>make the ground shake</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              accusantium dolorum ad nostrum porro eaque quaerat enim at. Quae,
+              enim ipsum perspiciatis beatae consectetur dolore eaque
+            </p>
+            <button class="a1">$249,99</button>
+            <button>pre-order now</button>
+          </div>
+      
+      </div>
+        </div>
+        <div class="image">
+            <img src="remove1.png" alt="">
+        </div>
+        <div class="bottomtxt">
+            <i class="ri-play-circle-line"></i>
+            <div class="b">
+                <h5>watch</h5>
+                <p>preview</p>
+            </div>
+
+        </div>
+        <div class="black">
+
+        </div>
+    </div>
+  </body>
+</html>

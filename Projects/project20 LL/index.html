@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100vh;
+            width: 100%;
+            /* background-color: #4b4646; */
+            position: relative;
+        }
+        header{
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            height: 10vh;
+            width: 100%;
+            background-color: #fff;
+            padding-top: 20px;
+        }
+        header .logo{
+            height: 60px;
+            width: 150px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(/nav.png);
+        }
+        header nav{
+            font-size: 15px;
+            display: flex;
+            gap: 30px;
+            font-family: gilroy;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+        header nav a{
+            color: #000;
+            text-decoration: none;
+        }
+        header .icon{
+            /* text-align: center; */
+            align-items: center;
+            display: flex;
+            height: 40px;
+            width: 170px;
+            border: 1px solid rgb(153, 148, 148);
+            border-radius: 10px;
+            /* background-color: blue; */
+        }
+        .icon p{
+            text-transform: capitalize;
+            font-size: 13px;
+            font-family: gilroy;
+            font-weight: 500;
+            padding: 15px;
+        }
+        .center{
+            display: flex;
+        }
+        .right{
+            
+            margin-right: 70px;
+            float: right;
+            height: 90vh;
+            width: 50%;
+            background-image: url(img.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+         .left{
+             /* background-color: azure; */
+
+            margin-right: 50px;
+            float: left;
+            height: 90vh;
+            width: 50%;
+         }
+         .left .para{
+           margin-top: 3%;
+           margin-left: 13%;
+           letter-spacing: 2px;
+           transform: rotate(-30deg);
+            top: 25%;
+            color: rgb(51, 75, 153);
+            font-size: 18px;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         .left .contant{
+            position: absolute;
+            top: 35%;
+            left: 11%;
+            height: 400px;
+            width: 400px;
+            /* background-color: #3b3333; */
+         }
+         .contant h2{
+            text-transform: capitalize;
+            letter-spacing: 3px;
+            line-height: 65px;
+            font-size: 60px;
+            font-family: gilroy;
+            font-weight: 800;
+             color: rgb(58, 56, 56);
+
+         }
+         .contant p{
+            font-size: 14px;
+            margin-left: 5px;
+            margin-top: 20px;
+            font-weight: 600;
+            color: rgb(83, 82, 82);
+         }
+         .contant p span{
+            color: black;
+            font-weight: 900;
+            font-family: gilroy;
+            font-size: 18px;
+         }
+         .contant button{
+            font-size: 14px;
+            text-transform: capitalize;
+            padding: 13px 30px;
+            margin-top: 20px;
+            font-family:gilroy;
+            font-weight: 600;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            /* background-color: #fff; */
+         }
+         .contant button:hover{
+            background-color: #5c09f5ad;
+            color: #fffbfb;
+
+         }
+         .btn1{
+             /* font-size: 12px; */
+            background-color: #5c09f5c9;
+            color: #fff;
+            margin-right: 20px;
+         }
+         .btmimg{
+            bottom: 30px;
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            left: 40%;
+            transform: rotate(-110deg);
+            /* border-radius: 80px; */
+            background-image: url(/stamp.png);
+            background-size: cover;
+            background-position: center;
+            background-color: aquamarine;
+            box-shadow: 0px 0px 25px rgba(0,0,0,0.3);
+         }
+          
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo"></div>
+            <nav>
+                <a href="">about</a>
+                <a href="">service</a>
+                <a href="">portfolio</a>
+                <a href="">testimonial</a>
+            </nav>
+            <div class="icon">
+                <p>search</p>
+            </div>
+        </header>
+       <div class="center">
+         <div class="left">
+            <p class="para" >hello!</p>
+            <div class="contant">
+            <h2>we have <br> design <br> experience</h2>
+                <p> <span>---</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. voluptates officiis facere error praesentium!</p>
+                <button class="btn1" >let's talk</button>
+                <button>portfolio.</button>
+            </div>
+        </div>
+        <div class="right">
+<!-- <img src="img.png" alt="" srcset=""> -->
+        </div>
+       </div>
+       <div class="btmimg"></div>
+
+    </div>
+</body>
+</html>

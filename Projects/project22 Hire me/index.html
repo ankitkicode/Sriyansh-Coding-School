@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;padding: 0;
+            font-family: gilroy;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            background-color: #fff;
+        }
+        .topnav{
+            height: 15%;
+            width: 100%;
+            /* background-color: gray; */
+        }
+        .topnav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* padding: 0px 20px; */
+            
+        }
+        .topnav h1{
+            margin-left: 60px;
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        .topnav nav{
+            margin-right: 60px;
+            display: flex;
+            font-weight: 600;
+            gap: 30px;
+            font-size: 20px;
+            text-transform: capitalize;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: #000;
+        }
+        .secondnav{
+            padding-left: 50px;
+            padding-right: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 12%;
+            width: 100%;
+            background-color: rgb(184, 182, 182);
+        }
+        .secondnav button{
+            background-color: #fff;
+            font-size: 22px;
+            text-transform: capitalize;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+
+            }
+            .secondnav button:hover{
+                background-color: #f1eeeed7;
+            }
+        .secondnav nav{
+            font-size: 20px;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            font-weight: 500;
+        }
+        .bgimage{
+            height: 90%;
+            width: 100%;
+            /* background-image: url(); */
+            background-color: rgb(127, 255, 212);
+            position: relative;
+        }
+        .bgimage .cover{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255, 0, 0, 0.226);
+        }
+        .cover h2{
+            margin-left: 70px;
+            letter-spacing: 1px;
+            font-size: 60px;
+            text-transform: capitalize;
+            padding-top: 7%;
+
+        }
+        .cover p{
+            margin-left: 70px;
+            margin-top: 50px;
+            font-size: 31px;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            text-transform: capitalize;
+        }
+        .cover button{
+            margin-left: 60px;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 25px;
+            text-transform: capitalize;
+            border-radius: 50px;
+            margin-top: 60px;
+            border: 1.5px solid #fff;
+            background-color: transparent;
+        }
+        .cover .btn{
+
+            border: none;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="topnav">
+            <h1>company</h1>
+            <nav>
+                <a href="">find work</a>
+                <a href="">hire help</a>
+                <a href="">api</a>
+            </nav>
+
+        </div>
+        <div class="secondnav">
+            <button>cutomer login</button>
+            <nav>
+                <a href="">about</a>
+                <a href="">community</a>
+                <a href="">media</a>
+                <a href="">blog</a>
+                <a href="">contact</a>
+            </nav>
+
+        </div>
+        <div class="bgimage">
+            <div class="cover">
+                <h2>real-Time help is here.</h2>
+                <p>delivering on demand lobar with the tap of an app. </p>
+                <button>learn more</button>
+                <button class="btn" >book demo</button>
+
+
+
+            </div>
+
+
+        </div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      .main {
+        height: 100%;
+        width: 100%;
+        background-color: #fffefe;
+      }
+      header {
+        border-bottom: 1px solid rgb(182, 181, 181);
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        height: 10%;
+        width: 100%;
+        /* background-color: #746c6c; */
+      }
+      header h1 {
+        cursor: pointer;
+        text-transform: capitalize;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+      }
+      header nav {
+        display: flex;
+        gap: 35px;
+        font-size: 16px;
+        text-transform: capitalize;
+      }
+      nav a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      header .icon {
+        display: flex;
+        gap: 30px;
+        font-size: 17px;
+      }
+      .icon i {
+        border: 1px solid gray;
+        padding: 6px 8px;
+        cursor: pointer;
+      }
+      .left {
+        margin-top: 15px;
+      }
+      .left i {
+        padding-left: 13%;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .left .hm {
+        padding-left: 14%;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: gray;
+      }
+      .left span {
+        margin-top: 20px;
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+      .right {
+        position: absolute;
+        right: 6%;
+        top: 16%;
+        font-size: 30px;
+        font-weight: 600;
+        color: gray;
+      }
+      .right .a01 {
+        font-size: 35px;
+        color: black;
+      }
+      .iconrgt {
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+        gap: 60px;
+        font-size: 25px;
+        font-weight: 600;
+        color: rgb(24, 23, 23);
+      }
+      .contant {
+        position: absolute;
+        top: 30%;
+        left: 13%;
+        height: 70%;
+        width: 40%;
+        /* background-color: blueviolet; */
+      }
+      .contant h2 {
+        font-size: 35px;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .contant p {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .contant span {
+        float: right;
+        margin-top: -18px;
+        padding-right: 20%;
+      }
+      .contant span i {
+        font-weight: 500;
+        color: rgb(233, 180, 6);
+      }
+      .contant .para {
+        margin-top: 40px;
+        font-size: 15px;
+        width: 78%;
+      }
+      .iconcon {
+        padding-left: 10px;
+        margin-top: 30px;
+        font-size: 20px;
+      }
+      .leftplus {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 20%;
+        position: absolute;
+        top: 65%;
+        left: 2%;
+        height: 8%;
+        width: 18%;
+        background-color: #fff;
+        border: 1px solid black;
+      }
+      .leftplus i {
+        font-size: 18px;
+        padding: 10px;
+      }
+      .rightbtn {
+        height: 8%;
+        width: 23%;
+        position: absolute;
+        top: 65%;
+        left: 23%;
+        background-color: #178a99;
+        border: 1px solid black;
+        color: white;
+        border-radius: 5px;
+      }
+      .rightbtn p {
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-left: 16px;
+        font-size: 13px;
+        margin-top: 8px;
+      }
+     .contant .parabottom{
+        font-size: 15px;
+        margin-top: 14%;
+      }
+      .contant .bottom{
+        /* margin-top: 20px; */
+        /* padding-left: 20px; */
+        padding-right: 60px;
+        display: flex;
+        gap: 150px;
+        justify-content: start;
+        align-items: center;
+        font-size: 20px;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: 3%;
+        /* left: 13%; */
+        height: 12%;
+        width: 90%;
+        /* background-color: #b4b2b2; */
+      }
+      .image{
+        position: absolute;
+        right: 17%;
+        bottom: 25%;
+        height: 60%;
+        width: 32%;
+        background-image: url(chair.png);
+        background-size: contain;
+        background-position: bottom;
+        background-color: #fffefe;
+      }
+      .imgcard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        right: 10%;
+        bottom: 5%;
+        height: 20%;
+        width: 40%;
+        /* background-color: #550e0e; */
+      }
+      .imgcard .imgbox1{
+        border: 3px solid gray;
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(116, 7, 131);
+      }
+      .imgcard .a{
+        background-image: url(https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: contain;
+      }
+      .imgcard .b{
+        background-image: url(https://images.unsplash.com/photo-1519947486511-46149fa0a254?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: bottom;
+        background-size: cover;
+      }
+      .imgcard .c{
+        background-image: url(https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position:bottom ;
+        background-size: cover;
+      }
+      .imgcard .d{
+        background-image: url(https://images.unsplash.com/photo-1596162954151-cdcb4c0f70a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNoYWlyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: bottom;
+        background-size: cover;
+      }
+      h3{
+        position: absolute;
+        bottom: 8px;
+        left: 57%;
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        font-family:  'Wide Latin';
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <h1>company</h1>
+        <nav>
+          <a href="">shop</a>
+          <a href="">collection</a>
+          <a href="">product</a>
+          <a href="">contact</a>
+          <a href="">about</a>
+        </nav>
+        <div class="icon">
+          <i class="ri-menu-5-fill"></i>
+          <i class="ri-search-line"></i>
+          <i class="ri-shopping-cart-2-line"></i>
+        </div>
+      </header>
+      
+      <div class="left">
+        <i class="ri-arrow-left-fill"></i><br />
+        <span class="hm">home /</span>
+        <span>chairs</span>
+      </div>
+      <div class="right">
+        <span class="a01">01</span>
+        <span>/09</span>
+        <div class="iconrgt">
+          <i class="ri-arrow-left-s-line"></i>
+          <i class="ri-arrow-right-s-line"></i>
+        </div>
+      </div>
+      <div class="contant">
+        <h2>mearyl lounge chair</h2>
+        <p>$149.99</p>
+        <span>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-s-fill"></i>
+          <i class="ri-star-half-s-line"></i> 3.5/5.00
+        </span>
+        <p class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          iste fugiat cumque quae? Vitae architecto blanditiis cum ipsa.
+          Pariatur delectus modi quod at, minima illo?
+        </p>
+
+        <div class="iconcon">
+          <i class="ri-checkbox-blank-circle-line"></i>
+          <i class="ri-checkbox-blank-circle-fill"></i>
+          <i class="ri-checkbox-blank-circle-fill"></i>
+          <i class="ri-checkbox-blank-circle-line"></i>
+        </div>
+        <div class="leftplus">
+          <i class="ri-subtract-fill"></i>
+          <i class="ri-add-line"></i>
+        </div>
+        <div class="rightbtn">
+          <p>add to card</p>
+        </div>
+        <p class="parabottom">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="bottom">
+            <div class="btmlft">
+                <i class="ri-heart-line">add to favourite</i>    
+            </div>
+            <div class="rgtbtm">
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-linkedin-box-fill"></i>
+            </div>
+            
+        </div>
+      </div>
+      <div class="image">
+
+      </div>
+      <div class="imgcard">
+        <div class="a imgbox1"></div>
+        <div class="b imgbox1"></div>
+        <div class="c imgbox1"></div>
+        <div class="d imgbox1"></div>
+      </div>
+      <h3>design by ankit jatav</h3>
+    </div>
+  </body>
+</html>

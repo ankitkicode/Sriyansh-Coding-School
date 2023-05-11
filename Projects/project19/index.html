@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cotton</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            background-color: rgb(228, 228, 255);
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10%;
+            width: 100%;
+            /* background-color: #beb8b8; */
+        }
+        header h1{
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-family: gilroy;
+        }
+        header nav{
+            display: flex;
+            gap: 50px;
+            font-size: 15px;
+            text-transform: capitalize;
+        }
+        nav a{
+            color: rgb(71, 68, 68);
+            text-decoration: none;
+            font-weight: 600;
+
+        }
+        .left{
+            margin-top: 6%;
+            margin-left: 16%;
+            height: 400px;
+            width: 500px;
+            /* background-color: rgb(165, 157, 157); */
+        }
+        .left h2{
+            font-size: 40px;
+            font-weight: 700;
+            font-family: gilroy;
+            text-transform: capitalize;
+            letter-spacing: 1.5px;
+        }
+        .left h3{
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .left p{
+            margin-top: 20px;
+            font-size: 13px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 330px;
+        }
+        .left h5{
+            text-transform: capitalize;
+            margin-top: 20px;
+            font-size: 13px;
+            font-family: gilroy;
+            font-weight: 500;
+        }
+        .left .size {
+            margin-top: 20px;
+            gap: 20px;
+            display: flex;
+            width: 200px;
+            height: 50px;
+            cursor: pointer;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* border: 10px soild rgb(173, 40, 40); */
+            /* background-color: blueviolet; */
+
+        }
+        .size .s{
+             border-radius: 10px;
+            text-transform: capitalize;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 60px;
+            display: flex;
+            gap: 20px;
+            background-color: rgb(219, 207, 207);
+            transition: .5s;
+        }
+        .s:hover{
+            background-color: rgb(7, 123, 233);
+        }
+        .size .m{
+               text-transform: capitalize;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 60px;
+            display: flex;
+            gap: 20px;
+            background-color: rgb(7, 123, 233);
+            border-radius: 10px;
+            transition: .5s;
+            
+        }
+        .m:hover{
+            background-color:rgb(219, 207, 207) ;
+        }
+        .size .l{
+             border-radius: 10px;
+               text-transform: capitalize;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 60px;
+            display: flex;
+            gap: 20px;
+            background-color: rgb(219, 207, 207);
+            transition: .5s;
+            
+        }
+         .l:hover{
+            background-color: rgb(7, 123, 233);
+        }
+        button{
+            margin-top: 25px;
+            font-size: 18px;
+            text-transform: capitalize;
+            padding: 8px 20px;
+            margin-left: 20px;
+            color: #000;
+            background-color:  rgb(7, 123, 233);
+            cursor: pointer;
+            border-radius: 10px;
+        box-shadow: 0px 25px 50px rgb(178, 198, 228);
+        border: none;
+        color: #fff;
+        }
+        button:hover{
+            background-color: rgb(178, 198, 228);
+            color: rgb(7, 123, 233);
+        }
+        .right{
+            position: absolute;
+            top: 10%;
+            right: 10%;
+            height: 500px;
+            width: 600px;
+            /* background-color: blueviolet; */
+            /* background-image: url(img.png); */
+            background-size: cover;
+            background-position: center;
+        }
+        .right img{
+            height: 500px;
+
+        }
+        .right .x{
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            display: flex;
+            position: absolute;
+            top: 55%;
+            right: 50%;
+            height: 50px;
+            width: 200px;
+            background-color: rgb(178, 198, 228);
+            border-radius: 30px;
+        }
+        .x .a{
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            background-color: blueviolet;
+        }
+        .right .y{
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            display: flex;
+            position: absolute;
+            top: 35%;
+            right: 10%;
+            height: 50px;
+            width: 200px;
+            background-color: rgb(178, 198, 228);
+            border-radius: 30px;
+        }
+        .y .b{
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+            background-color: rgb(226, 131, 43);
+        }
+        .left .btn{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: start;
+            position: absolute;
+            bottom: 30px;
+            height: 70px;
+            width: 300px;
+            /* background-color: blue; */
+        }
+        .btn .c{
+            border: 1px solid gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+        width: 40px;
+        font-size: 22px;
+        /* background: #000; */
+        transition: .5s;
+        border-radius: 6px;
+        }
+        .btn .c:hover{
+            cursor: pointer;
+            background-color: rgb(178, 198, 228);
+            color: rgb(7, 123, 233);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+          
+        <header>
+            <h1>+ craft</h1>
+            <nav>
+                <a href="">categories</a>
+                <a href="">blog </a>
+                <a href="">servicse</a>
+                <a href="">about</a>
+                <i class="ri-shopping-bag-fill"></i>
+
+            </nav>
+        </header>
+        <div class="left">
+            <h2>cotton candy <br>bed sheet</h2>
+            <h3>$79.00</h3>
+            <p>Lorem ipsum dolor sit amet  consectetur adipisicing elit consectetur adipisicing elit.</p>
+            <h5>select size</h5>
+            <div class="size">
+                <div class="s">s</div>
+                <div class="m">m</div>
+                <div class="l">l</div>
+            </div>
+            <button>add to bag</button>
+            <div class="btn">
+                <div class="c"><i class="ri-facebook-circle-fill"></i></div>
+                <div class="c"><i class="ri-twitter-fill"></i></div>
+                <div class="c"><i class="ri-linkedin-box-fill"></i></div>
+
+            </div>
+
+        </div>
+        <div class="right">
+            <img src="img.png" alt="">
+            <div class="x">
+                <div class="a"></div>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+              <div class="y">
+                <div class="b"></div>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+
+        </div>
+      
+    </div>
+</body>
+</html>

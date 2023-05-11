@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        header{
+            padding-top: 10px;
+            /* justify-content:space-evenly ; */
+            display: flex;
+            height: 10%;
+            width: 100%;
+            background-color: #010218;
+        }
+        h1{
+            margin-left: 10%;
+            font-size:33px ;
+            font-family: Gilroy;
+            color: rgb(249, 252, 255);
+            text-transform: capitalize;
+
+        }
+        nav{
+            margin-left: 30%;
+            margin-top: 15px;
+            font-size: 16px;
+            text-transform: capitalize;
+        
+        } 
+        nav a{
+            /* padding-top: 20px; */
+             color: rgb(151, 162, 168);
+             padding-left: 20px;
+             text-decoration: none;
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+             font-weight: 500;
+
+        }
+        nav a span{
+            color: aliceblue;
+        }
+        
+        button{
+            margin-left: 40px;
+            margin-top: 7px;
+            padding: 5px 20px;
+            font-size: 18px;
+            text-transform: capitalize;
+            border-radius: 8px;
+            border: none;
+            color: white;
+            background-color: rgb(10, 192, 34);
+        }
+        .image{
+            height: 78%;
+            width: 100%;
+            background-size: contain;
+            background-position: center;
+            background-image: url(https://images.unsplash.com/photo-1679859488623-787c9d25128d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4M3w2c01WalRMU2tlUXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+            /* background-color: #616188; */
+        }
+        .context{
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 5%;
+            height: 70%;
+            width: 40%;
+            /* background-color: #615a5a; */
+        }
+        .context h3{
+            margin-left:11% ;
+            font-size: 25px;
+            letter-spacing: 2px;
+            color: aliceblue;       
+            line-height: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .context h1{
+            font-size: 50px;
+        }
+        .btn{
+            position: absolute;
+            bottom: 20%;
+            left: 7%;
+        }
+        .btn button{
+            padding: 10px 20px;
+            border: 1px solid white;
+            color: white;
+            background-color: transparent;
+        }
+    
+        .img{
+            height: 570px;
+            width: 280px;
+             position: absolute;
+            top: 15%;
+            right: 18%;
+            /* box-shadow: 0px 10px 20px red; */
+            /* background-color: #fff; */
+            background-image: url(iphone.png);
+            background-size: cover;
+            
+
+
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>dazzle</h1>
+        <nav>
+            <a href=""> <span>home</span></a>
+            <a href="">about</a>
+            <a href="">pricing</a>
+            <a href="">testimonials</a>
+            <a href="">download</a>
+        </nav>
+        <span><button>sign up</button></span>
+    </header>
+    <div class="image">
+
+        <div class="context">
+            <h3>welcome to dazzle</h3>
+            <h1>creative landing <br> page to showcase <br>your amazing app</h1>
+        </div>
+        <div class="btn">
+            <button>download app</button>
+            <button>watch video</button>
+        </div>
+        <!-- <div class="mobile">
+            <div class="screen">
+
+            </div>
+        </div> -->
+        <div class="img">
+                <!-- <img src="iphone.png" alt="" srcset=""> -->
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>

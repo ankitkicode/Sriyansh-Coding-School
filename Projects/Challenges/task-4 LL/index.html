@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: Agency FB; */
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      .main {
+        height: 100vh;
+        width: 100%;
+        background-color: #000;
+      }
+      header {
+        padding: 0px 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 15vh;
+        width: 70%;
+        background-color: transparent;
+      }
+      header h1 {
+        margin-top: 5px;
+        margin-left: -15px;
+        font-family: Agency FB;
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
+      header nav {
+        display: flex;
+        gap: 50px;
+        font-size: 17px;
+        text-transform: capitalize;
+      }
+      header nav a {
+        color: white;
+        text-decoration: none;
+        font-family: Agency FB;
+      }
+      .leftnav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      header button {
+        border: none;
+        height: 60px;
+        width: 70px;
+      }
+      header button:nth-child(1){
+        background-color: #070707;
+        background-size: cover;
+        background-position: top;
+        background-image: url(https://www.shutterstock.com/image-vector/vector-logo-silver-letter-s-260nw-279383243.jpg);
+        color: white;
+      }
+      
+      .contant {
+        margin-left: 5.5%;
+        font-family: Agency FB;
+        margin-top: 20px;
+        height: 310px;
+        width: 540px;
+
+        /* background-color: darkolivegreen; */
+      }
+      .contant h1 {
+        font-weight: 600;
+        color: #fff;
+        font-size: 120px;
+        line-height: 120px;
+        letter-spacing: 2.5px;
+      }
+      .contant button {
+        margin-left: 3%;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-family: gilroy;
+        font-weight: 500;
+        font-size: 11px;
+        padding: 13px 45px;
+        border: none;
+        letter-spacing: 1.5px;
+        background-color: #fff;
+      }
+      .contant button:nth-last-child(1) {
+        color: white;
+        border: none;
+        background-color: transparent;
+        /* text-decoration: underline; */
+        /* line-height: 20px;
+             */
+        margin-left: 20px;
+        padding: 3px 1px;
+        border-bottom: 1px solid white;
+        /* background-color: #fff; */
+      }
+      .gola{
+        font-size: 35px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 14.5%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: rgba(253, 65, 8, 0.884);
+      }
+      .bottom{
+        /* overflow: hidden; */
+        margin-left: 5.5%;
+        position: absolute;
+        bottom: 15px;
+        height: 140px;
+        width: 450px;
+        border:  1px solid gray;
+        /* background-color: rgb(85, 81, 76); */
+      }
+      .bottom h2{
+      
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 50;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .bottom p{
+        position: absolute;
+        top: 57px;
+        right: 23%;
+        color: #b3aeae;
+        font-size: 12px;
+        font-weight: 50;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .bottom .im1{
+        margin-top: -50px;
+        height: 180px;
+        transform: rotate(-35deg);
+      }
+      .bottom .im2{
+        overflow: hidden;
+        position: absolute;
+        top: 10%;
+        right: 0px;
+        margin-top: 15%;
+        height: 55px;
+        transform: rotate(-184deg);
+      }
+      .img1{
+        position: absolute;
+        top: 15%;
+        right: 23%;
+        height: 330px;
+        width: 250px;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img2.png);
+      }
+      .img2{
+         position: absolute;
+        top: 0%;
+        right: 1%;
+        height: 340px;
+        width: 240px;
+        border: 1px solid gray;
+           background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(img3.png);
+        background-color: rgba(190, 47, 3, 0.884);
+      }
+      .img2 .rightnav{
+        position: absolute;
+        top: 5%;
+        left: 60px;
+      }
+      .img2 .rightnav a {
+        margin-top: 30%;
+        padding-right: 15px;
+        color: white;
+        text-decoration: none;
+        font-family: Agency FB;
+        font-size: 17px;
+        text-transform: uppercase;
+      }
+      .img2 button {
+        color: #f00606f3;
+         font-size: 19px;
+        border: none;
+        padding: 10px 10px;
+      }
+      .img2 p{
+        padding: 16px;
+        position: absolute;
+        bottom: -20px;
+        font-size: 70px;
+        color: #fff;
+        font-weight: 600;
+        font-family: Agency FB;
+      }
+      .img2 .ac{
+        position: absolute;
+        font-size: 28px;
+        color: #fff;
+        bottom: 5px;
+        right: 10px;
+      }
+     
+      .btmtxt{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 15%;
+        right: 8%;
+        padding: 10px;
+        height: 60px;
+        width: 450px;
+        /* background-color: #b3aeae; */
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        color: #c5c1c1;
+      }
+      .btmtxt1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 5%;
+        right: 8%;
+        padding: 10px;
+        height: 60px;
+        width: 450px;
+        color: #c5c1c1;
+        /* background-color: #b3aeae; */
+      }
+      .circle{
+        position: absolute;
+        right: 6%;
+        bottom: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70px;
+        width: 150px;
+        /* background-color: #696464; */
+      }
+      .aa{
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        background-color: #940808;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs5_4ZIdUbMy4X3QA9vjqCzTmN_aB2RslLBQ&usqp=CAU);
+        background-position: top;
+        background-size: cover;
+        border: 1px solid gray;
+      }
+      .ab{
+        border: 1px solid gray;
+        margin-left: -15px;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        background-color: #792020;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu47fJAK2tPLJGHeGKsrQCs4hCTQBqyGfVSg&usqp=CAU);
+        background-position:top;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <div class="leftnav">
+          <button>a</button>
+          <h1>virtuality</h1>
+        </div>
+        <nav>
+          <a href="">apps & games</a>
+          <a href="">resourses</a>
+          <a href="">contact us</a>
+        </nav>
+        
+      </header>
+      <div class="contant">
+        <h1>
+          IT'S VIRTUAL <br />
+          WORLD TIME
+        </h1>
+        <button>get started</button>
+        <button>join the community</button>
+      </div>
+      <div class="gola">+</div>
+      <div class="bottom">
+        <img class="im1" src="mask.png" alt="">
+        <h2>upgrade your hero</h2>
+        <p>Only for pro plan users</p>
+        <div class="im2"><img  src="jaal.png" alt=""></div>
+        
+      </div>
+      <div class="img1"></div>
+      <div class="img2">
+        <div class="rightnav">
+          <a href="">log in</a>
+          <button><i class="ri-logout-box-r-line"></i></button>
+        </div>
+        <p>5.0</p>
+        <i class="ac ri-arrow-right-up-line"></i>
+      </div>
+      <div class="btmtxt1">
+        <p>Showcase</p>
+        <p>Virtual spaces can serve a variety <br> of research and educational goals</p>
+        <p>/2023</p>
+      </div>
+      <div class="btmtxt">
+        <p>Players</p>
+        <p>
+Creating the personal avatar, and <br> independently exploring the world</p>
+<p>/2022</p>
+      </div>
+      <div class="circle">
+        <div class="aa"></div>
+        <div class="ab"></div>
+      </div>
+      
+    </div>
+    
+  </body>
+</html>

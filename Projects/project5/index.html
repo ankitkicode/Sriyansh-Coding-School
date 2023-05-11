@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+             height: 100%;
+            width: 100%;
+            background-color: gainsboro;
+            /* background-color: blueviolet; */
+        }
+        .navbar h1{
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+        .navbar{
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 40px;
+            display: flex;
+            justify-content: space-between;
+            height: 13%;
+            width: 100%;
+            /* background-color: brown; */
+        }
+        nav li{
+            margin-top: 6%;
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        .image{
+            position: absolute;
+            top: 50%;
+            left: 53%;
+            transform: translate(-50%,-50%);
+            height: 60%;
+            width: 300px;
+            background-position: center;
+            background-size: cover;
+            border-radius: 8%;
+            border: 3px solid black;
+            
+            /* background-color: aqua; */
+            background-image: url('https://images.unsplash.com/photo-1677005142678-d141a1eabbe9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+        }
+        h3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: rgb(146, 67, 67);
+            transform: translate(-50%,-50%);
+            font-size: 110px;
+            letter-spacing: 6px;
+            text-transform: capitalize;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .progress{
+            position: absolute;
+            bottom: 10%;
+            left: 4%;
+            height: 1.5%;
+            width: 30%;
+            background-color: rgb(100, 88, 88);
+        }
+        .run{
+            height: 100%;
+            width: 80%;
+            background-color: rgb(24, 20, 20);
+        }
+        .righttext{
+            height: 10%;
+            width: 20%;
+            font-weight: 600;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 7%;
+            right: 4%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h1>company</h1>
+            <h2>www.company.india.in</h2>
+            <nav>
+                <li>menu</li> 
+                <li>about</li>
+                <li>contact</li>
+            </nav>
+        </div>
+        <div class="image">
+
+        </div>
+        <h3>
+            ankit kumar
+        </h3>
+        <div class="progress">
+            <div class="run">
+
+            </div>
+        </div>
+        <div class="righttext">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, corrupti!</p>
+        </div>
+    </div>
+</body>
+</html>
